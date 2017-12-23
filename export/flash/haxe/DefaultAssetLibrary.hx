@@ -52,8 +52,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (openfl && !flash)
 		
 		
-		
-		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_data_gn_killgothic_u_kanao_ttf);
 		
 		
 		
@@ -136,6 +135,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		className.set ("assets/data/GN-KillGothic-U-KanaO.ttf", __ASSET__assets_data_gn_killgothic_u_kanao_ttf);
+		type.set ("assets/data/GN-KillGothic-U-KanaO.ttf", AssetType.FONT);
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		className.set ("assets/images/splashScreen.png", __ASSET__assets_images_splashscreen_png);
@@ -250,14 +251,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/music/creditsStuff_data/e00/d00/e0000f72.au", AssetType.TEXT);
 		className.set ("assets/music/creditsStuff_data/e00/d00/e0000feb.au", __ASSET__assets_music_creditsstuff_data_e00_d00_e0000feb_au);
 		type.set ("assets/music/creditsStuff_data/e00/d00/e0000feb.au", AssetType.TEXT);
-		className.set ("assets/music/creditsStuff_data/e00/d01/e000117c.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e000117c_au);
-		type.set ("assets/music/creditsStuff_data/e00/d01/e000117c.au", AssetType.TEXT);
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001271.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001271_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001271.au", AssetType.BINARY);
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001449.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001449_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001449.au", AssetType.BINARY);
-		className.set ("assets/music/creditsStuff_data/e00/d01/e000165e.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e000165e_au);
-		type.set ("assets/music/creditsStuff_data/e00/d01/e000165e.au", AssetType.TEXT);
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001a25.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001a25_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001a25.au", AssetType.TEXT);
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001b3f.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001b3f_au);
@@ -299,6 +296,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/data/GN-KillGothic-U-KanaO.ttf";
+		className.set (id, __ASSET__assets_data_gn_killgothic_u_kanao_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "assets/images/images-go-here.txt";
 		path.set (id, id);
 		
@@ -527,10 +528,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
-		id = "assets/music/creditsStuff_data/e00/d01/e000117c.au";
-		path.set (id, id);
-		
-		type.set (id, AssetType.TEXT);
 		id = "assets/music/creditsStuff_data/e00/d01/e0001271.au";
 		path.set (id, id);
 		
@@ -539,10 +536,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.BINARY);
-		id = "assets/music/creditsStuff_data/e00/d01/e000165e.au";
-		path.set (id, id);
-		
-		type.set (id, AssetType.TEXT);
 		id = "assets/music/creditsStuff_data/e00/d01/e0001a25.au";
 		path.set (id, id);
 		
@@ -627,6 +620,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		
+		className.set ("assets/data/GN-KillGothic-U-KanaO.ttf", __ASSET__assets_data_gn_killgothic_u_kanao_ttf);
+		type.set ("assets/data/GN-KillGothic-U-KanaO.ttf", AssetType.FONT);
 		
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
@@ -799,17 +795,11 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/music/creditsStuff_data/e00/d00/e0000feb.au", __ASSET__assets_music_creditsstuff_data_e00_d00_e0000feb_au);
 		type.set ("assets/music/creditsStuff_data/e00/d00/e0000feb.au", AssetType.TEXT);
 		
-		className.set ("assets/music/creditsStuff_data/e00/d01/e000117c.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e000117c_au);
-		type.set ("assets/music/creditsStuff_data/e00/d01/e000117c.au", AssetType.TEXT);
-		
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001271.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001271_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001271.au", AssetType.BINARY);
 		
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001449.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001449_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001449.au", AssetType.BINARY);
-		
-		className.set ("assets/music/creditsStuff_data/e00/d01/e000165e.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e000165e_au);
-		type.set ("assets/music/creditsStuff_data/e00/d01/e000165e.au", AssetType.TEXT);
 		
 		className.set ("assets/music/creditsStuff_data/e00/d01/e0001a25.au", __ASSET__assets_music_creditsstuff_data_e00_d01_e0001a25_au);
 		type.set ("assets/music/creditsStuff_data/e00/d01/e0001a25.au", AssetType.TEXT);
@@ -1504,6 +1494,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if flash
 
 @:keep @:bind #if display private #end class __ASSET__assets_data_data_goes_here_txt extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_data_gn_killgothic_u_kanao_ttf extends flash.text.Font { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_images_go_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_splashscreen_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_music_albumartsmall_jpg extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -1561,10 +1552,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000eed_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000f72_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000feb_au extends flash.utils.ByteArray { }
-@:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e000117c_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001271_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001449_au extends flash.utils.ByteArray { }
-@:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e000165e_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001a25_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001b3f_au extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001d75_au extends flash.utils.ByteArray { }
@@ -1586,8 +1575,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 #elseif html5
 
 
-
-
+@:keep #if display private #end class __ASSET__assets_data_gn_killgothic_u_kanao_ttf extends lime.text.Font { public function new () { super (); name = "GN-KMBFont-UB-OldstyleKana"; } } 
 
 
 
@@ -1673,6 +1661,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 @:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.Bytes {}
+@:font("assets/data/GN-KillGothic-U-KanaO.ttf") #if display private #end class __ASSET__assets_data_gn_killgothic_u_kanao_ttf extends lime.text.Font {}
 @:file("assets/images/images-go-here.txt") #if display private #end class __ASSET__assets_images_images_go_here_txt extends lime.utils.Bytes {}
 @:image("assets/images/splashScreen.png") #if display private #end class __ASSET__assets_images_splashscreen_png extends lime.graphics.Image {}
 @:image("assets/music/AlbumArtSmall.jpg") #if display private #end class __ASSET__assets_music_albumartsmall_jpg extends lime.graphics.Image {}
@@ -1730,10 +1719,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/music/creditsStuff_data/e00/d00/e0000eed.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000eed_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d00/e0000f72.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000f72_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d00/e0000feb.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d00_e0000feb_au extends lime.utils.Bytes {}
-@:file("assets/music/creditsStuff_data/e00/d01/e000117c.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e000117c_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d01/e0001271.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001271_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d01/e0001449.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001449_au extends lime.utils.Bytes {}
-@:file("assets/music/creditsStuff_data/e00/d01/e000165e.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e000165e_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d01/e0001a25.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001a25_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d01/e0001b3f.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001b3f_au extends lime.utils.Bytes {}
 @:file("assets/music/creditsStuff_data/e00/d01/e0001d75.au") #if display private #end class __ASSET__assets_music_creditsstuff_data_e00_d01_e0001d75_au extends lime.utils.Bytes {}
@@ -1757,6 +1744,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 #end
 
 #if (openfl && !flash)
+@:keep #if display private #end class __ASSET__OPENFL__assets_data_gn_killgothic_u_kanao_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__assets_data_gn_killgothic_u_kanao_ttf (); src = font.src; name = font.name; super (); }}
 @:keep #if display private #end class __ASSET__OPENFL__flixel_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__flixel_fonts_nokiafc22_ttf (); src = font.src; name = font.name; super (); }}
 @:keep #if display private #end class __ASSET__OPENFL__flixel_fonts_monsterrat_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__flixel_fonts_monsterrat_ttf (); src = font.src; name = font.name; super (); }}
 

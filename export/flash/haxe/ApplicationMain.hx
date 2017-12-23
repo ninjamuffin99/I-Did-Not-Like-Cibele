@@ -34,6 +34,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("GN-KMBFont-UB-OldstyleKana");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
 		urls.push ("assets/images/images-go-here.txt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -262,20 +266,12 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
-		urls.push ("assets/music/creditsStuff_data/e00/d01/e000117c.au");
-		types.push (lime.Assets.AssetType.TEXT);
-		
-		
 		urls.push ("assets/music/creditsStuff_data/e00/d01/e0001271.au");
 		types.push (lime.Assets.AssetType.BINARY);
 		
 		
 		urls.push ("assets/music/creditsStuff_data/e00/d01/e0001449.au");
 		types.push (lime.Assets.AssetType.BINARY);
-		
-		
-		urls.push ("assets/music/creditsStuff_data/e00/d01/e000165e.au");
-		types.push (lime.Assets.AssetType.TEXT);
 		
 		
 		urls.push ("assets/music/creditsStuff_data/e00/d01/e0001a25.au");
@@ -403,7 +399,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "5",
+			build: "17",
 			company: "ninjaMuffin",
 			file: "I-Did-Not-Like-Cibele",
 			fps: 60,
