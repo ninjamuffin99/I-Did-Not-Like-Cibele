@@ -46,6 +46,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/images/PAliceDefault.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/splashScreen.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -314,8 +318,16 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/sounds/discordSound.mp3");
+		types.push (lime.Assets.AssetType.MUSIC);
+		
+		
 		urls.push ("assets/sounds/sounds-go-here.txt");
 		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/sounds/steamSound.mp3");
+		types.push (lime.Assets.AssetType.MUSIC);
 		
 		
 		urls.push ("flixel/sounds/beep.mp3");
@@ -403,7 +415,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "33",
+			build: "41",
 			company: "ninjaMuffin",
 			file: "I-Did-Not-Like-Cibele",
 			fps: 60,
