@@ -38,6 +38,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.FONT);
 		
 		
+		urls.push ("assets/images/cyberpunk-street.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/images-go-here.txt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -399,7 +403,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "17",
+			build: "33",
 			company: "ninjaMuffin",
 			file: "I-Did-Not-Like-Cibele",
 			fps: 60,

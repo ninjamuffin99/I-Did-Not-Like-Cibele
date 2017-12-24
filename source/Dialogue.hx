@@ -79,10 +79,10 @@ class Dialogue extends FlxSpriteGroup
 	var lines:Array<FlxTypeText>;
 	
 	// The dialog lines that are going to be displayed
-	var queue:Array<String>;
+	public var queue:Array<String>;
 	
 	// The next line (from numberOflines) that is going to be feeded next
-	var lineToFeed:Int;
+	public var lineToFeed:Int;
 	
 	// The flow is paused and it awaits user key to advance
 	var isPaused:Bool;
@@ -129,7 +129,7 @@ class Dialogue extends FlxSpriteGroup
 		// -- Create the AutoTypers
 		lines = [];
 		for (i in 0...numberOfLines) {
-			lines[i] = new FlxTypeText(paddingText * 40, (paddingText/2) + i * (_fontSize + paddingText) + 30, WIDTH - (paddingText * 2), "blah blah blah", _fontSize	);
+			lines[i] = new FlxTypeText(paddingText, (paddingText/2) + i * (_fontSize + paddingText) + 30, WIDTH - (paddingText * 2), "blah blah blah", _fontSize	);
 			if (_font != null) {
 				lines[i].font = _font;
 			}
