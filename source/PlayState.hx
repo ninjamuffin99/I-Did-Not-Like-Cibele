@@ -8,17 +8,19 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.ui.FlxButton;
 import flixel.math.FlxMath;
+import lime.ui.MouseCursor;
+import openfl.ui.Mouse;
 
 class PlayState extends FlxState
 {
 	private var _dialogue:Dialogue;
 	private var _animeGrill:FlxSprite;
-	
+
 	private var _bg:FlxSprite;
-	
+
 	override public function create():Void
 	{
-		
+
 		_bg = new FlxSprite(0, 0);
 		_bg.loadGraphic(AssetPaths.cyberpunk_street__png, true, 304, 192);
 		_bg.setGraphicSize(FlxG.width, FlxG.height);
@@ -40,23 +42,27 @@ class PlayState extends FlxState
 		
 		dialogueStart(Story.story);
 		
+		FlxG.mouse.useSystemCursor = true;
+		
+		
+		
 		super.create();
 	}
 
 	override public function update(elapsed:Float):Void
 	{
 		super.update(elapsed);
-		
+
 		FlxG.watch.addQuick("Lines Feedin: ", _dialogue.queue);
-		
+
 		dialogCheck();
 	}
-	
+
 	public function dialogueStart(words:Array<String>, autoStart:Bool = true):Void
 	{
 		_dialogue.setDialog(words, autoStart);
 	}
-	
+
 	var dialogBools:Array<Bool> = [false, false];
 	private function dialogCheck():Void
 	{
@@ -66,7 +72,7 @@ class PlayState extends FlxState
 			_tweening(_animeGrill);
 		}
 	}
-	
+
 	public function _tweening(_image:FlxSprite, tweenIn:Bool = true):Void
 	{
 		if (tweenIn)
@@ -79,5 +85,5 @@ class PlayState extends FlxState
 			FlxTween.tween(_image, { x: 0 - _image.width}, 0.75, {ease: FlxEase.backIn});
 		}
 	}
-	
+
 }

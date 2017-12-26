@@ -42,6 +42,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/idustrialShit.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/images-go-here.txt");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -415,7 +419,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "41",
+			build: "42",
 			company: "ninjaMuffin",
 			file: "I-Did-Not-Like-Cibele",
 			fps: 60,
