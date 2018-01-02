@@ -122,7 +122,14 @@ class Story
 		"Witchcraft celebrates pale Hecate’s offerings,",
 		"and withered murder, alarumed by his sentinel, the wolf",
 		"Whose howl’s his watch, thus with his stealthy pace, with Tarquin’s ravishing strides, towards his design moves like a ghost.",
-		
+		"Thou sure and firm-set earth, hear not my steps, which way they walk, for fear thy very stones prate of my whereabout,",
+		"And take the present horror from the time, which now suits with it",
+		"Whiles I threat, he lives. Words to the heat of deeds too cold breath gives.",
+		//A bell rings
+		"I go, and it is done",
+		"The bell invites me.",
+		"Hear it not, Duncan, for it is a knell that summons thee to heaven or to hell.",
+		//to be continued
 		
 		
 	];
